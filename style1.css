@@ -1,0 +1,16 @@
+body{
+    font-family: Arial,  sans-serif;
+    background-image:url(fotos/fondo4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin: 0;
+}
+
+h2{
+    color: rgb(243, 243, 243);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}

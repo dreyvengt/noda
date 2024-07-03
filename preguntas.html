@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="../Proyecto Gutierrez/fotos/Captura_de_pantalla_2024-06-10_113029-removebg-preview.png" alt="" width="130px" height="100px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="formulario.html">Servicio al cliente</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ALTOcc
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="motos.html">MT03</a></li>
+              <li><a class="dropdown-item" href="r3.html">R3</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="duke.html">Duke 250</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="repuestos.html">Repuestos</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="preguntas.html">Preguntas Frecuentes</a> 
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="taller.html">Taller</a>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- FAQ 1 - Bootstrap Brain Component -->
+  <section class="bg-light py-3 py-md-5">
+    <div class="container">
+      <div class="row gy-5 gy-lg-0 align-items-lg-center">
+        <div class="col-12 col-lg-6">
+          <img class="img-fluid rounded" loading="lazy" src="../Proyecto Gutierrez/fotos/preguntas2.jpg"
+            alt="How can we help you?">
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="row justify-content-xl-end">
+            <div class="col-12 col-xl-11">
+              <h2 class="h1 mb-3">¿En que Puedo Ayudarte?</h2>
+              <p class="lead fs-4 text-secondary mb-5">Esperamos que haya encontrado una respuesta a su pregunta. Si
+                necesita ayuda, busque su consulta en nuestro Centro de soporte o contáctenos por correo electrónico.
+              </p>
+              <div class="accordion accordion-flush" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      ¿Cómo funciona si pasa algun daño afectado a mi moto?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>si te pasa algun daño a tu moto podemos:</p>
+                      <ul>
+                        <li> Ayudarte con descuento de piesas</li>
+                        <li>La garantia de la moto solo aplica para motor y carburador"</li>
+                        <li>Para poder ayudarte mas necesitamos saver como fue tu accidente".</li>
+                        <li>Esperamos ayudarte como podamos"."</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      ¿Cómo funciona el sistema de pago?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Un sistema de pago es una forma de transferir dinero de una persona u organización a otra. Es un
+                      proceso complejo que involucra a muchas partes diferentes, incluidos bancos, compañías de tarjetas de crédito y
+                      comerciantes, tambien puedes pagar en efectivo.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      ¿Hacen envios?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>podemos hacer envios?:</p>
+                      <ul>
+                        <li>si podemos .</li>
+                        <li>Al momento de comprar la moto pedimos dirrecion por si desea trasladar su motocicleta ."</li>
+                        <li>Podemos hacer el envio pero toma un costo adicional "</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Motos Gutierrito
+            </h6>
+            <p>
+              para mas consultas de mas motos pueden consultarnos al privado con
+              neustro numero, o correo,     pronto tendremos pagina de facebok,instagram.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Productos
+            </h6>
+            <p>
+              <a href="index.html" class="text-reset">Motos</a>
+            </p>
+            <p>
+              <a href="repuestos.html" class="text-reset">Repuestos</a>
+            </p>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Servicios
+            </h6>
+
+            <p>
+              <a href="repuestos.html" class="text-reset">Repuestos</a>
+            </p>
+            <p>
+              <a href="formulario.html" class="text-reset">Consultar</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contactos</h6>
+            <p><i class="fas fa-home me-3"></i> Tegucigalpa, Plaza miraflores</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              moto.guti@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i>9470-4005</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024
+      <a class="text-reset fw-bold"
+        href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=AS5LTASr-rs85sjLPJwmm-Jmw4YUY3SBq8x6Z1YUsCo28syud-vweVuV3QW5_MOeYeug-MTWxbrwOQ&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1073701184%3A1718042734372518&ddm=0">
+        moto.guti@gmail.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <script src="https://unpkg.com/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
